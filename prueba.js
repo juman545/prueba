@@ -40,3 +40,34 @@ let weknumber = Math.ceil(days/7)
 console.log("Weeknumber", weknumber)
 const months = ["January", "February", "March", "April", "May", "june", "July", "August", "September", "October", "November", "December"]
 console.log("Month of:", months[getMethodsDate.getMonth()])
+
+//Datesets
+//setfullyear() cambia el año de la fecha actual
+console.log(datetoday)
+console.log("Modifica la fecha: ", datetoday.setFullYear(2020))
+console.log(datetoday)
+
+
+//comparar dates
+const date1 = new Date()
+const date2 = new Date()
+date2.setFullYear(2022, 5, 24)
+if (date2 > date1){
+    console.log("hoy es 20 de abril de 2024")
+} else{
+    console.log("hoy es después de 24 de abril de 2024")
+}
+
+//Funciones
+function miFuncion(a, b, c) {
+    return a, b, c
+}
+miFuncion()
+
+function miFuncion2() {
+    console.log("esto es genial")
+}
+miFuncion2()//así se llama a la función para que esta imprima el resultado
+
+let sumatotal = miFuncion(1, 2, 3)
+console.log("este es el resultado de mi primera función: ", sumatotal)
