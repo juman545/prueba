@@ -14,3 +14,4 @@ cardio.forEach(forEachprueba)
 console.log("cardio")
 let cangrejo = "el cangrejo camina de lado"
 console.log("como camina el cangrejo:", cangrejo)
+//ya se que fue lo que paso y me siento un tonto
