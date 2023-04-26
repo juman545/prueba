@@ -71,3 +71,48 @@ miFuncion2()//así se llama a la función para que esta imprima el resultado
 
 let sumatotal = miFuncion(1, 2, 3)
 console.log("este es el resultado de mi primera función: ", sumatotal)
+
+
+let condicion = (10<9) ? "10 es mayor que 9" : "10 no es mayor que 9"
+console.log(condicion)
+
+const moto = {vel: "más de 10km/h", tamaño: "bigmen", duración: 1200}
+console.log(moto.vida)
+console.log(moto?.vida)
+
+//expresiones dondicionales
+
+//sentencia if
+let x = 11
+let z =120
+if (10>x){
+    console.log("esto es real")
+}
+//sentencia if else
+if (10>x){
+    console.log("esto es real")
+}else if (z<8) {
+    console.log("no era cierto")
+}else{
+    console.log("solo else")
+}
+
+//swicht case es una especie de ocndicional if else if else
+switch (z){
+    case 8<4:
+        resultado = 120
+        break
+    case 9:
+        resultado = 9
+        break
+    default:
+        resultado = "diferente"
+        break
+}
+if (resultado != "diferente"){
+    console.log("el resultado es diferente a:", resultado)
+}else{
+    console.log(" el resultado es igual a: ", z)
+}
+//
+
