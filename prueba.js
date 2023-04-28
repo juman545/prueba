@@ -115,4 +115,5 @@ if (resultado != "diferente"){
     console.log(" el resultado es igual a: ", z)
 }
 //
+console.log(z)
 
